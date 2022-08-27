@@ -5,7 +5,7 @@ public class MyTreeNode<T> {
     MyTreeNode<T> left;
     MyTreeNode<T> right;
 
-    public MyTreeNode(T key) {
+   public MyTreeNode(T key) {
         this.key = key;
         this.left = null;
         this.right = null;
